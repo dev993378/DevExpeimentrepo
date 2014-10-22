@@ -11,8 +11,8 @@ import java.text.SimpleDateFormat;
 import java.text.*;
 public class PDAO implements Serializable {
 
-	private Connection con;
-	public PDAO()
+	private Connection con;     
+	public PDAO() 
 	{
 		estabcon();
 	}
